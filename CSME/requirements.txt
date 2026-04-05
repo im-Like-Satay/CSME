@@ -1,5 +1,0 @@
-fastapi[standard]
-psycopg[binary, pool]
-pymemcache
-
-pydantic
