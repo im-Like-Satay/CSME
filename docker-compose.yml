@@ -13,8 +13,8 @@ services:
         secrets:
         - postgres_password
         # change for prod
-        # volumes:
-        #     - ./CSME/src:/app
+        volumes:
+            - ./CSME/src:/app/src
         healthcheck:
             test: ["CMD", "httpcheck", "http://localhost:8080/"]
             interval: 15s
