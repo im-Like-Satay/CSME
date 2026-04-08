@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 
 import db
-from Setting import Setting
+from utility.Setting import Setting
 
 setting = Setting()
 
