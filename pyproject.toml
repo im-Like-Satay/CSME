@@ -6,6 +6,7 @@ dependencies = [
     # core deps
     "fastapi[standard]~=0.135.3",
     "uvicorn[standard]~=0.42.0",
+    "asyncpg>=0.31.0",
     # security
     "pyjwt~=2.12.1",
     "bcrypt~=5.0.0",
@@ -13,4 +14,5 @@ dependencies = [
     # side deps
     "pydantic~=2.12.5",
     "pydantic-settings~=2.13.1",
+    "httpx~=0.28.1",
 ]

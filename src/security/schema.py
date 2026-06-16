@@ -9,7 +9,7 @@ class Tier(Enum):
 
 class JWT_payload(BaseModel):
     sub: int
-    tier: Tier
+    tier: str
     exp: datetime
     iat: datetime
 

@@ -1,9 +1,6 @@
-## **Tech stack**
-
-#### FastAPi
-#### Aasyncpg, postgres db
-#### aiomcache, memcache
-#### UV, package manager sangat cepat
+## Simple Docs
+---
+#### **UV** package manager sangat cepat
 - untuk menambah package, bisa dengan 
     `uv add <package>`
 - untuk menghapus bisa dengan
@@ -11,11 +8,13 @@
 - untuk mengecek package bisa dilihat di pyproject.toml
 - untuk mengubahnya bisa diubah di pyproject.toml kemudian jalankan
     `uv lock && uv sync`
----
-## Simple Docs
-### variable folder
+
+### variable
 pada variable terdapat hal-hal yang bersifat tersembunyi seperti password dan variable untuk environment nya
 
+
+## Simple Docs
+---
 
 *Standarisasi response api*:
 
